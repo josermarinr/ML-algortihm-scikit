@@ -1,0 +1,5 @@
+plt.scatter(ages, net_worths)
+plt.plot(ages, reg.predict(ages), color='blue', linewidth=3)
+plt.xlabel("ages")
+plt.ylabel("net worths")
+plt.show()
